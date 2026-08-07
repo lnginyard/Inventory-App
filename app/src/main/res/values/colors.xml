@@ -7,4 +7,14 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="inventory_primary">#1E3A5F</color>
+    <color name="inventory_primary_dark">#102A43</color>
+    <color name="inventory_accent">#2F80ED</color>
+    <color name="inventory_success">#27AE60</color>
+    <color name="inventory_warning">#F2994A</color>
+    <color name="inventory_danger">#EB5757</color>
+    <color name="inventory_background">#F4F7FA</color>
+    <color name="inventory_card">#FFFFFF</color>
+    <color name="inventory_text">#1F2933</color>
+    <color name="inventory_muted">#6B7280</color>
 </resources>

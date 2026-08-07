@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/addItemScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/inventory_background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/addItemRootLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/addItemTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Inventory Item"
+            android:textColor="@color/inventory_primary_dark"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/addItemSubtitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Enter the item name and starting quantity."
+            android:textColor="@color/inventory_muted"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:id="@+id/addItemCardLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@color/inventory_card"
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <EditText
+                android:id="@+id/editTextItemName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Item name"
+                android:inputType="textCapWords"
+                android:minHeight="48dp"
+                android:padding="12dp"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/editTextItemQuantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:hint="Quantity"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:padding="12dp"
+                android:singleLine="true" />
+
+            <Button
+                android:id="@+id/buttonSaveItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:backgroundTint="@color/inventory_success"
+                android:minHeight="48dp"
+                android:text="@string/save_item"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/buttonCancelAddItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/inventory_muted"
+                android:minHeight="48dp"
+                android:text="@string/cancel"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

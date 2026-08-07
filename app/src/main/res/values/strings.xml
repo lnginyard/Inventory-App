@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Warehouse Inventory Tracker</string>
+    <string name="login_title">Warehouse Inventory Tracker</string>
+    <string name="login_subtitle">Securely manage stock levels in real time</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Log In</string>
+    <string name="create_account_button">Create Account</string>
+    <string name="inventory_title">Inventory Dashboard</string>
+    <string name="inventory_subtitle">Track item quantities and zero-stock alerts</string>
+    <string name="add_item">Add Item</string>
+    <string name="sms_settings">SMS Alerts</string>
+    <string name="item_name">Item Name</string>
+    <string name="quantity">Quantity</string>
+    <string name="actions">Actions</string>
+    <string name="save_item">Save Item</string>
+    <string name="cancel">Cancel</string>
+    <string name="request_sms_permission">Request SMS Permission</string>
 </resources>

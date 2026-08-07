@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/smsPermissionScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/inventory_background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/smsPermissionRootLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/smsTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SMS Inventory Alerts"
+            android:textColor="@color/inventory_primary_dark"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/smsDescriptionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="This app can send SMS alerts when an inventory item reaches zero quantity. SMS permission is optional. If denied, the app will still work, but text notifications will not be sent."
+            android:textColor="@color/inventory_text"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/buttonRequestSmsPermission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:backgroundTint="@color/inventory_accent"
+            android:minHeight="48dp"
+            android:text="@string/request_sms_permission"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/textViewSmsPermissionStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/inventory_card"
+            android:elevation="3dp"
+            android:padding="16dp"
+            android:text="SMS permission status: Not requested yet."
+            android:textColor="@color/inventory_text"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/buttonBackToInventory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:backgroundTint="@color/inventory_primary"
+            android:minHeight="48dp"
+            android:text="Back to Inventory"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</ScrollView>

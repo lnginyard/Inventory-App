@@ -19,6 +19,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".cs360inventoryapp.SmsPermissionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".cs360inventoryapp.AddItemActivity"
+            android:exported="false" />
+        <activity
+            android:name=".cs360inventoryapp.InventoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".cs360inventoryapp.LoginActivity"
+            android:exported="false" />
+
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
