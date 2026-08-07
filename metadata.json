@@ -1,0 +1,6 @@
+{
+  "name": "Warehouse Inventory Tracker",
+  "description": "Warehouse inventory management application with user authentication, real-time stock grid, zero-stock alerts, and SMS notifications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
