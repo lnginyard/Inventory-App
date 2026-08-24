@@ -1,10 +1,9 @@
 # InventoryGuard: Warehouse & Stock Management Mobile Application
 
 > **CS 360: Mobile Architecture & Programming — Final Project Portfolio & Reflection**  
-> **Course Project**: Mobile Application Development & Launch Plan  
+> **Course Project**: Project 3 - Warehouse Inventory Mobile App  
 > **Application Name**: InventoryGuard  
-> **Author**: Student Portfolio Submission  
-
+> **Author**: Lorenzo Ginyard
 ---
 
 ## Project Reflection & Final Portfolio Questions
