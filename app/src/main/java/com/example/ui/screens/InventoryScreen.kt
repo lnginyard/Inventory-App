@@ -14,7 +14,7 @@ import androidx.compose.material.icons.filled.AddCircle
 import androidx.compose.material.icons.filled.Clear
 import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.Edit
-import androidx.compose.material.icons.filled.ExitToApp
+import androidx.compose.material.icons.automirrored.filled.ExitToApp
 import androidx.compose.material.icons.filled.Inventory
 import androidx.compose.material.icons.filled.Place
 import androidx.compose.material.icons.filled.RemoveCircle
@@ -101,7 +101,7 @@ fun InventoryScreen(
                         onClick = { viewModel.logout() },
                         modifier = Modifier.testTag("logout_button")
                     ) {
-                        Icon(Icons.Default.ExitToApp, contentDescription = "Log Out")
+                        Icon(Icons.AutoMirrored.Filled.ExitToApp, contentDescription = "Log Out")
                     }
                 },
                 colors = TopAppBarDefaults.topAppBarColors(
